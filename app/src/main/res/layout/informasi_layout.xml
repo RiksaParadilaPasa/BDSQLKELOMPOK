@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/dikerjakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created by :"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#FF9800"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/kesatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(28) Riksa Paradila Pasa"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/dikerjakan"/>
+
+    <TextView
+        android:id="@+id/kedua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(27) Rendra Muhammad Fadhil"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/kesatu"/>
+
+    <TextView
+        android:textColor="#4CAF50"
+        android:layout_marginTop="15dp"
+        android:id="@+id/kelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xl RPL 3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/kedua"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

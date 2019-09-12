@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Action"
+        android:textColor="#FF9800"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <Button
+            android:background="#03A9F4"
+            android:textColor="#FFFFFF"
+            android:id="@+id/doUpdate"
+            android:layout_width="80dp"
+            android:text="Update"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="#F44336"
+            android:textColor="#FFFFFF"
+            android:id="@+id/doDelete"
+            android:text="Delete"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="#FF9800"
+            android:textColor="#FFFFFF"
+            android:id="@+id/doDetail"
+            android:text="Detail"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
